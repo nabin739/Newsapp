@@ -31,25 +31,26 @@ This project demonstrates clean architecture, API data fetching, global state ma
 
 ##  Project Structure
 src/
-├── app/
-│ ├── store.ts
-│ └── hooks.ts
-├── Components/
-│ ├── NewsCard.tsx
-│ ├── ThemeToggle.tsx
-│ ├── LanguageToggle.tsx
-│ └── Skeleton.tsx
-├── features/
-│ ├── news/
-│ ├── theme/
-│ └── languages/
-├── pages/
-│ ├── NewsList.tsx
-│ └── PostDetails.tsx
-├── i18n/
-│ ├── translations.ts
-│ └── useTranslation.tsx
-└── main.tsx
+    ---app
+        ---store.ts
+        ---hooks.ts
+    ---Components
+        ---NewsCard.tsx
+        ---ThemeToggle.tsx
+        ---LanguageToggle.tsx
+        ---Skeleton.tsx
+    ---features
+        ---news
+        ---theme
+        ---languages
+    ---pages
+        ---NewsList.tsx
+        ---PostDetails.tsx
+    ---i18n
+        ---translations.ts
+        ---useTranslation.tsx
+    ---main.tsx
+
 
 Demo API:
 https://jsonplaceholder.typicode.com/posts
