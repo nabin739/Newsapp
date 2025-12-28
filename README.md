@@ -7,13 +7,13 @@ This project demonstrates clean architecture, API data fetching, global state ma
 
 ## Features
 
-- 🗞️ Fetch news data using **RTK Query**
-- 🌗 Dark / Light theme toggle
-- 🌍 Multi-language support
-- ⚡ Fast development with **Vite**
-- 🧩 Clean and scalable folder structure
-- 💀 Skeleton loaders for better UX
-- 📄 News list and detailed news view
+-  Fetch news data using **RTK Query**
+-  Dark / Light theme toggle
+-  Multi-language support
+-  Fast development with **Vite**
+-  Clean and scalable folder structure
+- Skeleton loaders for better UX
+-  News list and detailed news view
 
 ---
 
